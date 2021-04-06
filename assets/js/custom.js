@@ -1,5 +1,13 @@
 /* ----- Custom Scripts for Pilot template ----- */
-
+document.getElementById('dark-mode-btn').addEventListener('click', function (e) {
+        const toggler = document.body;
+        toggler.classList.toggle('dark-mode');
+        const target = e.target;
+        target.classList.toggle('fa-moon');
+        target.classList.toggle('fa-sun');
+      });
+	  
+	  
 jQuery(function($) {
   "use strict";
 
@@ -135,3 +143,67 @@ jQuery(function($) {
     });
   });
   });
+
+var swiper = new Swiper('.blog-slider', {
+    autoplay: {
+    delay: 5000,
+  }, 
+     spaceBetween: 30,
+      effect: 'fade',
+      loop: true,
+      mousewheel: {
+        invert: false,
+      },
+       //autoHeight: true,
+      pagination: {
+        el: '.blog-slider__pagination',
+        clickable: true,
+      }
+    });
+
+var swiper = new Swiper('.product-slider', {
+        spaceBetween: 30,
+        effect: 'fade',
+        loop: false,
+        navigation: {
+            nextEl: '.next',
+            prevEl: '.prev'
+        },
+        // mousewheel: {
+        //     // invert: false
+        // },
+        on: {
+            init: function(){
+                $('.product-img__item#img1').addClass('active');
+            }
+        }
+
+    });
+
+    swiper.on('slideChange', function () {
+        var index = this.activeIndex;
+
+        var target = $('.product-slider__item').eq(index).data('target');
+
+        console.log(target);
+
+        $('.product-img__item').removeClass('active');
+        $('.product-img__item#'+ target).addClass('active');
+
+        if(swiper.isEnd) {
+            $('.prev').removeClass('disabled');
+            $('.next').addClass('disabled');
+        } else {
+            $('.next').removeClass('disabled');
+        }
+
+        if(swiper.isBeginning) {
+            $('.prev').addClass('disabled');
+        } else {
+            $('.prev').removeClass('disabled');
+        }
+    });
+
+    $(".js-fav").on("click", function() {
+        $(this).find('.heart').toggleClass("is-active");
+    });

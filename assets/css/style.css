@@ -1,50 +1,5 @@
 /****fonts****/
-
-@font-face {
-	font-family: 'DINBold';
-	src: url('../fonts/DINBold/DINBold.woff2'),
-	/* Super Modern Browsers */
-	url('../fonts/DINBold/DINBold.woff'),
-	/* Pretty Modern Browsers */
-	url('../fonts/DINBold/DINBold.ttf'),
-	/* Safari, Android, iOS */
-	url('../fonts/DINBold/DINBold.svg');
-	/* Legacy iOS */
-}
-@font-face {
-	font-family: 'DINMedium';
-	src: url('../fonts/DINMedium/DINMedium.woff2'),
-	/* Super Modern Browsers */
-	url('../fonts/DINMedium/DINMedium.woff'),
-	/* Pretty Modern Browsers */
-	url('../fonts/DINMedium/DINMedium.ttf'),
-	/* Safari, Android, iOS */
-	url('../fonts/DINMedium/DINMedium.svg');
-	/* Legacy iOS */
-}
-@font-face {
-	font-family: 'DINLight';
-	src: url('../fonts/DINLight/DINLight.woff2'),
-	/* Super Modern Browsers */
-	url('../fonts/DINLight/DINLight.woff'),
-	/* Pretty Modern Browsers */
-	url('../fonts/DINLight/DINLight.ttf'),
-	/* Safari, Android, iOS */
-	url('../fonts/DINLight/DINLight.svg');
-	/* Legacy iOS */
-}
-@font-face {
-	font-family: 'DIN-Regular';	
-	/* IE9 Compat Modes */
-	src: url('../fonts/DINRegular/DIN-Regular.woff2'),
-	/* Super Modern Browsers */
-	url('../fonts/DINRegular/DIN-Regular.woff'),
-	/* Pretty Modern Browsers */
-	url('../fonts/DINRegular/DIN-Regular.ttf'),
-	/* Safari, Android, iOS */
-	url('../fonts/DINRegular/DIN-Regular.svg');
-	/* Legacy iOS */
-}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Roboto:wght@100;300;400&display=swap');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -94,12 +49,12 @@ table {
 /* --- Common Styles ---*/
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'DINLight';
+	font-family: 'Roboto';
   font-size: 16px;
 }
 
 p {
-	font-family: 'Open Sans';
+	font-family: 'Roboto';
 	font-size: 14px;
 }
 
@@ -183,8 +138,8 @@ body {
 
 .navbar {
 	font-size: 14px;
-  font-family: 'DINLight';
-	font-weight: 500;
+  font-family: 'Roboto';
+	font-weight: 300;
 	text-transform: uppercase;
 	padding-top: 15px;
 	letter-spacing: 1px;
@@ -221,7 +176,7 @@ body {
   }
 
 .navbar-default .navbar-brand {
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	font-size: 21px;
 	font-weight: 700;
 	color: #E31E24;
@@ -246,7 +201,7 @@ body {
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 13px;
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 }
 
 /* .navbar-default .navbar-nav > li > a:hover { */
@@ -302,7 +257,7 @@ body {
 }
 
 .navbar .btn-nav span {
-  font-family: 'DINLight';
+  font-family: 'Roboto';
   font-size: 14px;
   color: #FFFFFF;
   font-weight: 700;
@@ -500,7 +455,7 @@ body {
 }
 
 .hero .intro h1 {
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	font-size: 42px;
 	font-weight: 400;
 	line-height: 1.1;
@@ -516,7 +471,7 @@ body {
 }
 
 .hero .intro p {
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.4;
@@ -529,7 +484,7 @@ body {
 }
 
 .hero .form-footer p {
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	color: #5d6A7B;
 	font-size: 14px;
 	letter-spacing: 1px;
@@ -540,11 +495,11 @@ body {
 .hero-2 {
 	padding: 150px 0 50px 0;
 	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c7f3f0+0,a3dbfa+100 */
-	background: #c7f3f0; /* Old browsers */
-	background: -moz-radial-gradient(center, ellipse cover,  #c7f3f0 0%, #a3dbfa 100%); /* FF3.6-15 */
-	background: -webkit-radial-gradient(center, ellipse cover,  #c7f3f0 0%,#a3dbfa 100%); /* Chrome10-25,Safari5.1-6 */
-	background: radial-gradient(ellipse at center,  #c7f3f0 0%,#a3dbfa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7f3f0', endColorstr='#a3dbfa',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	background: #98c1d9; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #98c1d9 0%, #e0fbfc 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover,  #98c1d9 0%,#e0fbfc 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center,  #98c1d9 0%,#e0fbfc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#98c1d9', endColorstr='#e0fbfc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
 }
 
@@ -561,7 +516,7 @@ body {
 
 .hero-2 .intro p {
 	font-size: 14px;
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	line-height: 1.4;
 	color: #848484;
 	max-width: 400px;
@@ -603,7 +558,7 @@ body {
 }
 
 .btn-action span {
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	font-size: 12px;
   font-weight: 700;
   text-transform: capitalize;
@@ -614,7 +569,7 @@ body {
 
 
 .intro .btn-action span {
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -678,7 +633,7 @@ body {
 }
 
 .flex-split .f-left  h2 {
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	font-size: 28px;
 	color: #454545;
 	font-weight: 600;
@@ -687,7 +642,7 @@ body {
 }
 
 .flex-split .f-left  p {
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	font-size: 14px;
 	color: #111111;
 	font-weight: 300;
@@ -756,7 +711,7 @@ body {
 }
 
 .points-intro h1 {
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	font-size: 28px;
 	font-weight: 300;
 	line-height: 1.2;
@@ -771,12 +726,12 @@ body {
 }
 
 .point-text h1 {
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	font-size: 21px;
 }
 
 .point-text p {
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	font-size: 14px;
 	color: #A1A1A1;
 	line-height: 1.4;
@@ -800,17 +755,18 @@ body {
 .features-boxed .boxed-intro h4 {
 	font-family: 'Roboto';
 	font-size: 16px;
-	font-weight: 400;
-	color: #848484;
+	line-height:24px;
+	font-weight: 300;
+	color: #000;
 	text-transform: capitalize;
 	margin-bottom: 20px;
 }
 
 .features-boxed .boxed-intro h1 {
-	font-family: 'DINBold';
+	font-family: 'Merriweather', serif;;
 	font-size: 25px;
 	font-weight: 300;
-	color: #404040;
+	color: #2f3c84;
 	text-transform: uppercase;
 	letter-spacing: 4px;
 }
@@ -840,7 +796,7 @@ body {
 	font-family: 'Roboto';
 	font-size: 16px;
 	font-weight: 300;
-	color: #848484;
+	color: #000;
 	line-height: 1.4;
 	margin: 20px 0 20px 0;
 }
@@ -931,7 +887,7 @@ body {
 }
 
 .features-text p {
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	font-size: 14px;
 	line-height: 1.4;
 	color: #A1A1A1;
@@ -966,7 +922,7 @@ body {
 }
 
 .pricing p {
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	font-size: 14px;
 	font-weight: 400;
 	color: #444444;
@@ -1045,7 +1001,7 @@ body {
 
 .table-left .pricing-details span, .table-right .pricing-details span {
 	display: inline-block;
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	font-size: 28px;
 	font-weight: 400;
 	color: #808080;
@@ -1060,7 +1016,7 @@ body {
 }
 
 .table-left .pricing-details p, .table-right .pricing-details p {
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	font-size: 14px;
 	font-weight: 300;
 	color: #505050;
@@ -1076,7 +1032,7 @@ body {
 
 
 .table-left .pricing-details li, .table-right .pricing-details li {
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	font-size: 14px;
 	font-weight: 400;
 	color: #505050;
@@ -1109,7 +1065,7 @@ body {
 
 .pricing-v2 {
 	padding: 50px 0 50px 0;
-	background: #F8F8F8;
+	background: #e9ffff;
 }
 
 .pricing-v2 .intro {
@@ -1117,7 +1073,7 @@ body {
 }
 
 .pricing-v2 .intro h4 {
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 1.2;
@@ -1169,12 +1125,12 @@ body {
 
 
 .pricing-v2 .btn-action span {
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	font-size: 12px;
-  font-weight: 700;
-  text-transform: capitalize;
+	font-weight: 700;
+	text-transform: capitalize;
 	letter-spacing: 1px;
-	color: #FFFFFF;
+	color: #e31e24;
 	display: inline;
 }
 
@@ -1289,7 +1245,7 @@ body {
 }
 
 .dwnld-inner .app-info h1 {
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	font-size: 28px;
 	font-weight: 700;
 	color: #FFFFFF;
@@ -1299,7 +1255,7 @@ body {
 }
 
 .dwnld-inner .app-info h4 {
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	font-size: 14px;
 	color: #FFFFFF;
 	font-weight: 400;
@@ -1313,7 +1269,7 @@ body {
 }
 
 .app-info span {
-  font-family: 'DINLight';
+  font-family: 'Roboto';
   font-size: 12px;
   font-weight: 400;
   color: #FFFFFF;
@@ -1346,7 +1302,7 @@ body {
 }
 
 .main-2 .cta-inner h1 {
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 1.1;
@@ -1357,7 +1313,7 @@ body {
 }
 
 .main-2 .cta-inner h2 {
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	font-size: 34px;
 	font-weight: 700;
 	line-height: 1.1;
@@ -1366,7 +1322,7 @@ body {
 }
 
 .main-2 .cta-inner h3 {
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 1.1;
@@ -1393,7 +1349,7 @@ body {
 
 
 .main-2 .cta-inner p {
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.2;
@@ -1408,7 +1364,7 @@ body {
 }
 
 .main-2 .cta-inner ul li {
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	font-size: 15px;
 	line-height: 1.5;
 }
@@ -1422,7 +1378,7 @@ body {
 
 .pitch-2 {
 	width: 100%;
-	background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../images/cta.jpg) no-repeat center center;
+	background: #e9ffff;
 	background-size: cover;
 	padding: 150px 0 150px 0;
 }
@@ -1433,28 +1389,25 @@ body {
 }
 
 .pitch-inner h4 {
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	font-size: 12px;
 	font-weight: 400;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	color: #FFFFFF;
 }
 
 .pitch-inner h1 {
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	font-size: 28px;
 	line-height: 1.2;
 	margin-top: 20px;
-	color: #FFFFFF;
 }
 
 .pitch-inner p {
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	font-size: 14px;
 	line-height: 1.5;
 	margin-top: 20px;
-	color: #FFFFFF;
 }
 
 
@@ -1510,7 +1463,7 @@ body {
 
 .formee input {
   color: #222222;
-  font-family: 'DINLight';
+  font-family: 'Roboto';
   padding: 0;
   font-size: 0.9em;
 	height: 40px;
@@ -1550,14 +1503,14 @@ body {
 	position: absolute;
 	left: 10%;
 	top: 150%;
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	font-size: 14px;
 	color: #FF0000;
 }
 
 #response {
 	color: #333333;
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	margin-top: 30px;
 	font-size: 14px;
 	line-height: 1.4;
@@ -1588,7 +1541,7 @@ body {
 }
 
 .footer .ft-left p {
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	font-size: 14px;
 	color: #848484;
 	line-height: 1.5;
@@ -1628,7 +1581,7 @@ body {
 }
 
 .ft-right ul li {
-	font-family: 'DINLight';
+	font-family: 'Roboto';
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 2.5;
@@ -1734,7 +1687,6 @@ body {
 
 	.hero-2 .intro {
 		padding: 55px 0 0 0;
-		text-align:center;
 	}
 
 
@@ -1811,7 +1763,7 @@ body {
 	}
 
 	.review-section {
-		padding: 100px 0 100px 0;
+		padding: 100px 0 0 0;
 	}
 
 }
